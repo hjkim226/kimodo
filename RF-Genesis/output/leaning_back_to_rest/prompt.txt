@@ -1,0 +1,3 @@
+name: leaning_back_to_rest
+desc: A person is seated at a table, leaning back slightly into a rest posture.
+env: a dining room

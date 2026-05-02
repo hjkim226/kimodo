@@ -1,0 +1,3 @@
+name: returning_glass_to_table
+desc: A person is seated at a table, returning a glass to the surface with a controlled descent.
+env: a dining room

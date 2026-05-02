@@ -1,0 +1,3 @@
+name: pushing_plate_away_after_meal
+desc: A person is seated at a table, pushing the plate away to indicate the meal is finished.
+env: a dining room

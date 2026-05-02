@@ -1,0 +1,3 @@
+name: stabilizing_plate_with_hand
+desc: A person is seated at a table, stabilizing a plate with their non-dominant hand.
+env: a dining room

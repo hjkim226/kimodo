@@ -1,0 +1,3 @@
+name: rotating_sponge_inside_cup
+desc: A person is standing at a sink, rotating a sponge inside a cup with a twisting motion.
+env: a kitchen

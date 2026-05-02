@@ -1,0 +1,3 @@
+name: tilting_glass_to_drink
+desc: A person is seated at a table, tilting a glass toward their lips with a neck extension.
+env: a dining room

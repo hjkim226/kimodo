@@ -1,0 +1,3 @@
+name: leaning_to_reach_surface
+desc: A person is standing at a table, leaning forward to extend their reach across the surface.
+env: a kitchen

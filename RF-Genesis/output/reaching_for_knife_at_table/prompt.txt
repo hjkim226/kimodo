@@ -1,0 +1,3 @@
+name: reaching_for_knife_at_table
+desc: A person is seated at a table, reaching for a knife with their non-dominant hand.
+env: a dining room

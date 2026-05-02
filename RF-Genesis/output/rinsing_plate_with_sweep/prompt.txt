@@ -1,0 +1,3 @@
+name: rinsing_plate_with_sweep
+desc: A person is standing at a sink, rinsing a plate with a sweeping motion.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: carrying_dishes_to_sink
+desc: A person is walking toward a sink, carrying stacked dishes.
+env: a kitchen

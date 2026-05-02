@@ -1,0 +1,3 @@
+name: carrying_waste_to_bin
+desc: A person is walking toward a bin, transporting waste with a steady gait.
+env: a kitchen

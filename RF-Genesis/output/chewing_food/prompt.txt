@@ -1,0 +1,3 @@
+name: chewing_food
+desc: A person is seated at a table, chewing food with rhythmic jaw movements.
+env: a dining room

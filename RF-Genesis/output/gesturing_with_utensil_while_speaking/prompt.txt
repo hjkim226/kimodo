@@ -1,0 +1,3 @@
+name: gesturing_with_utensil_while_speaking
+desc: A person is seated at a table, gesturing with a utensil in their hand while speaking.
+env: a dining room

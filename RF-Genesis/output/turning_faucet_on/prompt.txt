@@ -1,0 +1,3 @@
+name: turning_faucet_on
+desc: A person is standing at a sink, turning the faucet handle with a wrist rotation.
+env: a kitchen

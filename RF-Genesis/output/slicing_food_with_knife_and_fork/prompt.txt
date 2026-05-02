@@ -1,0 +1,3 @@
+name: slicing_food_with_knife_and_fork
+desc: A person is seated at a table, slicing food with a knife while stabilizing it with a fork.
+env: a dining room

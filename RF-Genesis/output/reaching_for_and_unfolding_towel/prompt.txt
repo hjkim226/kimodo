@@ -1,0 +1,3 @@
+name: reaching_for_and_unfolding_towel
+desc: A person is standing at a counter, reaching for a towel and unfolding it.
+env: a kitchen

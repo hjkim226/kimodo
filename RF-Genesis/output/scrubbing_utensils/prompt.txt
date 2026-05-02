@@ -1,0 +1,3 @@
+name: scrubbing_utensils
+desc: A person is standing at a sink, scrubbing utensils with small wrist motions.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: blowing_over_hot_food
+desc: A person is seated at a table, blowing gently over hot food with a forward neck motion.
+env: a dining room

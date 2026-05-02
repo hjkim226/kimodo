@@ -1,0 +1,3 @@
+name: lowering_dishes_into_basin
+desc: A person is standing at a sink, lowering dishes into the basin.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: shaking_water_off_item
+desc: A person is standing at a sink, shaking excess water off an item with a flick.
+env: a kitchen

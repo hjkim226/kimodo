@@ -1,0 +1,3 @@
+name: lifting_glass_with_grip
+desc: A person is seated at a table, lifting a glass with a cylindrical grip.
+env: a dining room

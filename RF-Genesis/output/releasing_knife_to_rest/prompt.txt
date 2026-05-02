@@ -1,0 +1,3 @@
+name: releasing_knife_to_rest
+desc: A person is seated at a table, releasing the knife and returning their hand to a rest position.
+env: a dining room

@@ -1,0 +1,3 @@
+name: grasping_fork_with_precision
+desc: A person is seated at a table, grasping a fork with a precision grip.
+env: a dining room

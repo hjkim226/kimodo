@@ -1,0 +1,3 @@
+name: rinsing_and_shaking_hands_dry
+desc: A person is standing at a sink, rinsing and shaking their hands dry with wrist flicks.
+env: a kitchen

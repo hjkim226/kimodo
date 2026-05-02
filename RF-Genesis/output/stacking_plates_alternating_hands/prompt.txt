@@ -1,0 +1,3 @@
+name: stacking_plates_alternating_hands
+desc: A person is standing at a table, stacking plates using alternating hand placements.
+env: a kitchen

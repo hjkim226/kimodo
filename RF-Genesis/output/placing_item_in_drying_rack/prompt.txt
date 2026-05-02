@@ -1,0 +1,3 @@
+name: placing_item_in_drying_rack
+desc: A person is standing at a sink, placing a cleaned item into a drying rack.
+env: a kitchen
