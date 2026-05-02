@@ -1,0 +1,752 @@
+[
+  {
+    "name": "dicing_vegetables",
+    "desc": "A person is standing at a counter, dicing vegetables with a knife.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "peeling_vegetable_at_sink",
+    "desc": "A person is standing at a sink, peeling a vegetable with a peeler.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "mincing_herbs",
+    "desc": "A person is standing at a table, mincing herbs with a knife.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "crushing_garlic",
+    "desc": "A person is standing at a counter, crushing garlic with the flat of a blade.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "slicing_bread",
+    "desc": "A person is standing at a table, slicing a loaf of bread with a knife.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "zesting_fruit",
+    "desc": "A person is standing at a counter, zesting a fruit with a zester.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "cracking_egg_into_bowl",
+    "desc": "A person is standing at a counter, cracking an egg into a bowl.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "grinding_spices",
+    "desc": "A person is standing at a table, grinding spices with a mortar and pestle.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "trimming_meat",
+    "desc": "A person is standing at a counter, trimming fat from meat with a knife.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "snapping_green_beans",
+    "desc": "A person is standing at a counter, snapping green beans with both hands.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "flipping_food_in_pan",
+    "desc": "A person is standing at a stove, flipping food in a pan.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "stirring_soup",
+    "desc": "A person is standing at a stove, stirring soup in a pot with a spoon.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "whisking_eggs_in_bowl",
+    "desc": "A person is standing at a counter, whisking eggs in a bowl.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "flipping_pancake",
+    "desc": "A person is standing at a stove, flipping a pancake with a spatula.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "ladling_liquid_into_bowl",
+    "desc": "A person is standing at a stove, ladling liquid from a pot into a bowl.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "tasting_food_from_spoon",
+    "desc": "A person is standing at a counter, tasting food from a spoon.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "skimming_foam_from_pot",
+    "desc": "A person is standing at a stove, skimming foam from a pot with a spoon.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "draining_pot_into_strainer",
+    "desc": "A person is standing at a sink, pouring water from a pot into a strainer.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "basting_meat",
+    "desc": "A person is standing at a stove, basting meat with a brush.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "checking_oven",
+    "desc": "A person is stooping at an oven, checking food inside the oven.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "kneading_dough",
+    "desc": "A person is standing at a table, kneading dough with both hands.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "rolling_dough_with_pin",
+    "desc": "A person is standing at a table, rolling dough with a rolling pin.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "sifting_flour",
+    "desc": "A person is standing at a counter, sifting flour through a sieve.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "sprinkling_flour_on_surface",
+    "desc": "A person is standing at a table, sprinkling flour onto a surface.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scraping_bowl_with_spatula",
+    "desc": "A person is standing at a counter, scraping a bowl with a spatula.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "piping_frosting_on_cake",
+    "desc": "A person is standing at a table, piping frosting onto a cake.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "greasing_pan",
+    "desc": "A person is standing at a counter, greasing a pan with a brush.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "leveling_flour_in_cup",
+    "desc": "A person is standing at a counter, leveling flour in a measuring cup.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "folding_batter",
+    "desc": "A person is standing at a table, folding batter in a bowl with a spatula.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "dusting_sugar_on_pastry",
+    "desc": "A person is standing at a counter, dusting sugar over a pastry.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "cutting_meat_with_fork_and_knife",
+    "desc": "A person is seated at a table, cutting meat with a knife and fork.",
+    "env": "a dining room"
+  },
+  {
+    "name": "twirling_pasta_on_fork",
+    "desc": "A person is seated at a table, twirling pasta onto a fork.",
+    "env": "a dining room"
+  },
+  {
+    "name": "eating_soup_with_spoon",
+    "desc": "A person is seated at a table, eating soup with a spoon.",
+    "env": "a dining room"
+  },
+  {
+    "name": "eating_salad_with_fork",
+    "desc": "A person is seated at a table, eating a salad with a fork.",
+    "env": "a dining room"
+  },
+  {
+    "name": "dipping_food_in_sauce",
+    "desc": "A person is seated at a table, dipping food into a sauce.",
+    "env": "a dining room"
+  },
+  {
+    "name": "drinking_water_from_glass",
+    "desc": "A person is seated at a table, drinking water from a glass.",
+    "env": "a dining room"
+  },
+  {
+    "name": "wiping_mouth_with_napkin",
+    "desc": "A person is seated at a table, wiping their mouth with a napkin.",
+    "env": "a dining room"
+  },
+  {
+    "name": "breaking_bread_with_hands",
+    "desc": "A person is seated at a table, breaking bread with both hands.",
+    "env": "a dining room"
+  },
+  {
+    "name": "spreading_butter_on_bread",
+    "desc": "A person is seated at a table, spreading butter on bread with a knife.",
+    "env": "a dining room"
+  },
+  {
+    "name": "passing_dish_to_another",
+    "desc": "A person is seated at a table, passing a dish to another person.",
+    "env": "a dining room"
+  },
+  {
+    "name": "scraping_leftovers_off_plate",
+    "desc": "A person is standing at a bin, scraping leftovers off a plate.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "stacking_plates",
+    "desc": "A person is standing at a table, stacking plates with both hands.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "gathering_silverware",
+    "desc": "A person is standing at a table, gathering silverware from the table.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scrubbing_pot_with_sponge",
+    "desc": "A person is standing at a sink, scrubbing a pot with a sponge.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "spraying_cleaner_on_table",
+    "desc": "A person is standing at a table, spraying a cleaner onto the table.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "wiping_table_with_cloth",
+    "desc": "A person is standing at a table, wiping the table with a cloth.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "loading_plates_into_dishwasher",
+    "desc": "A person is stooping at a dishwasher, loading plates into the rack.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "rinsing_plate_under_tap",
+    "desc": "A person is standing at a sink, rinsing a plate under running water.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "drying_plate_with_towel",
+    "desc": "A person is standing at a counter, drying a plate with a towel.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "sweeping_crumbs_into_hand",
+    "desc": "A person is standing at a table, sweeping crumbs into a hand.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "opening_cabinet_door",
+    "desc": "A person is standing at a counter, pulling a cabinet handle to open it.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "reaching_into_bottom_drawer",
+    "desc": "A person is stooping at a cabinet, reaching into a bottom drawer.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "grasping_knife_left_hand",
+    "desc": "A person is standing at a table, grasping a knife with their left hand.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "slicing_with_knife",
+    "desc": "A person is standing at a counter, slicing an object with a knife.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "placing_item_after_torso_pivot",
+    "desc": "A person is standing at a counter, placing an item down after a torso pivot.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "pouring_from_kettle",
+    "desc": "A person is standing at a counter, pouring liquid from a kettle with both hands.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "stirring_in_circular_motion",
+    "desc": "A person is standing at a stove, stirring contents in a circular motion.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "opening_refrigerator_door",
+    "desc": "A person is standing at a refrigerator, pulling the door open.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scanning_refrigerator_shelves",
+    "desc": "A person is standing at a refrigerator, scanning shelves with a forward lean.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "closing_refrigerator_door",
+    "desc": "A person is standing at a refrigerator, closing the door with a push.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "shaking_pan_on_stove",
+    "desc": "A person is standing at a stove, shaking a pan with forward-backward bursts.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "cracking_egg_on_edge",
+    "desc": "A person is standing at a counter, cracking an egg against an edge.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "pouring_contents_into_bowl",
+    "desc": "A person is standing at a counter, pouring contents into a bowl.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "reaching_across_counter",
+    "desc": "A person is standing at a counter, reaching across the surface while shifting weight.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "flattening_dough_with_palm",
+    "desc": "A person is standing at a table, flattening dough with their palm.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "rolling_dough_with_rolling_pin",
+    "desc": "A person is standing at a table, rolling dough with a rolling pin.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "sprinkling_with_pinch",
+    "desc": "A person is standing at a table, sprinkling a substance with a pinching motion.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "turning_stove_knob",
+    "desc": "A person is standing at a stove, turning a knob with a wrist rotation.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "stepping_laterally_in_kitchen",
+    "desc": "A person is standing at a counter, stepping laterally to the left.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "lifting_pot_lid",
+    "desc": "A person is standing at a stove, lifting a lid to release steam.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "gripping_food_with_tongs",
+    "desc": "A person is standing at a stove, gripping food with tongs.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "bringing_utensil_to_mouth",
+    "desc": "A person is standing at a counter, bringing a utensil toward their mouth.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "tilting_container_to_pour",
+    "desc": "A person is standing at a counter, tilting a container to pour liquid.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "repositioning_cutting_board",
+    "desc": "A person is standing at a counter, pushing a cutting board to reposition it.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "wiping_counter_with_cloth",
+    "desc": "A person is standing at a counter, wiping the surface with a cloth.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "pulling_dishwasher_door_down",
+    "desc": "A person is stooping at a dishwasher, pulling the door downward.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "placing_object_into_dishwasher_rack",
+    "desc": "A person is stooping at a dishwasher, placing an object into the rack.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "closing_dishwasher_door",
+    "desc": "A person is standing at a dishwasher, pushing the door upward to close it.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "reaching_for_spice_jar_overhead",
+    "desc": "A person is standing at a shelf, reaching overhead to grasp a spice jar.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "opening_jar_cap",
+    "desc": "A person is standing at a counter, rotating a cap to open a jar.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "shaking_container",
+    "desc": "A person is standing at a counter, shaking a container with wrist pulses.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "lifting_pot_by_handle",
+    "desc": "A person is standing at a stove, lifting a pot vertically by the handle.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "carrying_object_in_kitchen",
+    "desc": "A person is walking in a kitchen, carrying an object.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "setting_object_down_carefully",
+    "desc": "A person is standing at a counter, setting an object down carefully.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "pressing_appliance_button",
+    "desc": "A person is standing at an appliance, pressing a button with their index finger.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "sliding_tray_into_oven",
+    "desc": "A person is standing at an oven, sliding a tray inside.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "opening_oven_door",
+    "desc": "A person is stooping at an oven, opening the door with both hands.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "leaning_back_from_oven_heat",
+    "desc": "A person is stooping at an oven, leaning backward to avoid heat.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "pulling_tray_from_oven",
+    "desc": "A person is stooping at an oven, pulling a tray outward.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scanning_cooking_progress",
+    "desc": "A person is standing at a stove, scanning the cooking progress.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "tapping_utensil_on_bowl",
+    "desc": "A person is standing at a counter, tapping a utensil against a bowl.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "whisking_contents_in_bowl",
+    "desc": "A person is standing at a counter, whisking contents in a bowl.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scooping_from_bowl",
+    "desc": "A person is standing at a counter, scooping contents from a bowl.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "pressing_bin_pedal_with_foot",
+    "desc": "A person is standing at a bin, pressing the pedal with a foot.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "dropping_waste_into_bin",
+    "desc": "A person is standing at a bin, dropping waste into it.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "shaking_hands_to_remove_moisture",
+    "desc": "A person is standing at a sink, shaking their hands to remove moisture.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "washing_hands_at_sink",
+    "desc": "A person is standing at a sink, rubbing their hands together to wash them.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "pulling_towel_down",
+    "desc": "A person is standing at a counter, pulling a towel downward.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "drying_hands_with_towel",
+    "desc": "A person is standing at a counter, drying their hands with a towel.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "relaxing_shoulders_after_task",
+    "desc": "A person is standing in a kitchen, relaxing their shoulders after a task.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "sitting_down_on_chair",
+    "desc": "A person is sitting down by flexing their knees and hips to lower onto a chair.",
+    "env": "a dining room"
+  },
+  {
+    "name": "scooting_chair_backward",
+    "desc": "A person is seated at a table, adjusting the chair position with a backward scoot.",
+    "env": "a dining room"
+  },
+  {
+    "name": "leaning_forward_on_table",
+    "desc": "A person is seated at a table, leaning their torso forward to rest forearms on the surface.",
+    "env": "a dining room"
+  },
+  {
+    "name": "grasping_fork_with_precision",
+    "desc": "A person is seated at a table, grasping a fork with a precision grip.",
+    "env": "a dining room"
+  },
+  {
+    "name": "stabilizing_plate_with_hand",
+    "desc": "A person is seated at a table, stabilizing a plate with their non-dominant hand.",
+    "env": "a dining room"
+  },
+  {
+    "name": "piercing_food_with_fork",
+    "desc": "A person is seated at a table, piercing food with a downward fork motion.",
+    "env": "a dining room"
+  },
+  {
+    "name": "lifting_fork_to_mouth",
+    "desc": "A person is seated at a table, lifting a fork toward their mouth along a curved path.",
+    "env": "a dining room"
+  },
+  {
+    "name": "tilting_head_to_meet_fork",
+    "desc": "A person is seated at a table, tilting their head forward to meet the utensil.",
+    "env": "a dining room"
+  },
+  {
+    "name": "inserting_food_and_retracting_fork",
+    "desc": "A person is seated at a table, inserting food into their mouth and retracting the fork.",
+    "env": "a dining room"
+  },
+  {
+    "name": "chewing_food",
+    "desc": "A person is seated at a table, chewing food with rhythmic jaw movements.",
+    "env": "a dining room"
+  },
+  {
+    "name": "pausing_to_look_at_plate",
+    "desc": "A person is seated at a table, pausing to shift their gaze downward toward the plate.",
+    "env": "a dining room"
+  },
+  {
+    "name": "reaching_for_knife_at_table",
+    "desc": "A person is seated at a table, reaching for a knife with their non-dominant hand.",
+    "env": "a dining room"
+  },
+  {
+    "name": "slicing_food_with_knife_and_fork",
+    "desc": "A person is seated at a table, slicing food with a knife while stabilizing it with a fork.",
+    "env": "a dining room"
+  },
+  {
+    "name": "releasing_knife_to_rest",
+    "desc": "A person is seated at a table, releasing the knife and returning their hand to a rest position.",
+    "env": "a dining room"
+  },
+  {
+    "name": "lifting_glass_with_grip",
+    "desc": "A person is seated at a table, lifting a glass with a cylindrical grip.",
+    "env": "a dining room"
+  },
+  {
+    "name": "tilting_glass_to_drink",
+    "desc": "A person is seated at a table, tilting a glass toward their lips with a neck extension.",
+    "env": "a dining room"
+  },
+  {
+    "name": "returning_glass_to_table",
+    "desc": "A person is seated at a table, returning a glass to the surface with a controlled descent.",
+    "env": "a dining room"
+  },
+  {
+    "name": "dabbing_mouth_with_napkin",
+    "desc": "A person is seated at a table, wiping their mouth with a napkin using a dabbing motion.",
+    "env": "a dining room"
+  },
+  {
+    "name": "leaning_back_to_rest",
+    "desc": "A person is seated at a table, leaning back slightly into a rest posture.",
+    "env": "a dining room"
+  },
+  {
+    "name": "turning_to_converse",
+    "desc": "A person is seated at a table, rotating their torso and head to engage in conversation.",
+    "env": "a dining room"
+  },
+  {
+    "name": "gesturing_with_utensil_while_speaking",
+    "desc": "A person is seated at a table, gesturing with a utensil in their hand while speaking.",
+    "env": "a dining room"
+  },
+  {
+    "name": "leaning_forward_to_eat_again",
+    "desc": "A person is seated at a table, leaning forward again to re-engage with the plate.",
+    "env": "a dining room"
+  },
+  {
+    "name": "scooping_food_with_spoon",
+    "desc": "A person is seated at a table, scooping food with a spoon using a wrist rotation.",
+    "env": "a dining room"
+  },
+  {
+    "name": "blowing_over_hot_food",
+    "desc": "A person is seated at a table, blowing gently over hot food with a forward neck motion.",
+    "env": "a dining room"
+  },
+  {
+    "name": "pushing_plate_away_after_meal",
+    "desc": "A person is seated at a table, pushing the plate away to indicate the meal is finished.",
+    "env": "a dining room"
+  },
+  {
+    "name": "stacking_plates_alternating_hands",
+    "desc": "A person is standing at a table, stacking plates using alternating hand placements.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "lifting_stacked_dishes",
+    "desc": "A person is standing at a table, lifting stacked dishes with both hands.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "carrying_dishes_to_sink",
+    "desc": "A person is walking toward a sink, carrying stacked dishes.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "lowering_dishes_into_basin",
+    "desc": "A person is standing at a sink, lowering dishes into the basin.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scraping_plate_with_utensil",
+    "desc": "A person is standing at a sink, scraping a plate surface with a utensil.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "turning_faucet_on",
+    "desc": "A person is standing at a sink, turning the faucet handle with a wrist rotation.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "rinsing_plate_under_running_water",
+    "desc": "A person is standing at a sink, rinsing a plate under running water.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scrubbing_plate_with_sponge",
+    "desc": "A person is standing at a sink, scrubbing a plate with a sponge in a circular motion.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scrubbing_stubborn_residue",
+    "desc": "A person is standing at a sink, applying shoulder pressure to scrub stubborn residue.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "flipping_plate_to_clean_back",
+    "desc": "A person is standing at a sink, flipping a plate with a wrist supination to clean the back.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "rinsing_plate_with_sweep",
+    "desc": "A person is standing at a sink, rinsing a plate with a sweeping motion.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "placing_item_in_drying_rack",
+    "desc": "A person is standing at a sink, placing a cleaned item into a drying rack.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "scrubbing_utensils",
+    "desc": "A person is standing at a sink, scrubbing utensils with small wrist motions.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "rotating_sponge_inside_cup",
+    "desc": "A person is standing at a sink, rotating a sponge inside a cup with a twisting motion.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "shaking_water_off_item",
+    "desc": "A person is standing at a sink, shaking excess water off an item with a flick.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "reaching_for_and_unfolding_towel",
+    "desc": "A person is standing at a counter, reaching for a towel and unfolding it.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "drying_plate_with_circular_motion",
+    "desc": "A person is standing at a counter, drying a plate with broad circular wiping motions.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "stacking_dried_dishes",
+    "desc": "A person is standing at a counter, stacking dried dishes vertically.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "wiping_countertop_laterally",
+    "desc": "A person is standing at a table, wiping the countertop with lateral arm sweeps.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "leaning_to_reach_surface",
+    "desc": "A person is standing at a table, leaning forward to extend their reach across the surface.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "collecting_crumbs_into_palm",
+    "desc": "A person is standing at a table, collecting crumbs into their palm with a hand sweep.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "carrying_waste_to_bin",
+    "desc": "A person is walking toward a bin, transporting waste with a steady gait.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "pressing_bin_foot_pedal",
+    "desc": "A person is standing at a bin, pressing the foot pedal to open the lid.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "disposing_waste_into_bin",
+    "desc": "A person is standing at a bin, disposing of contents with a controlled hand release.",
+    "env": "a kitchen"
+  },
+  {
+    "name": "rinsing_and_shaking_hands_dry",
+    "desc": "A person is standing at a sink, rinsing and shaking their hands dry with wrist flicks.",
+    "env": "a kitchen"
+  }
+]
