@@ -1,0 +1,3 @@
+name: stacking_plates
+desc: A person is standing at a table, stacking plates with both hands.
+env: a kitchen

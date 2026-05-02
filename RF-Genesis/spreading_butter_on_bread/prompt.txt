@@ -1,0 +1,3 @@
+name: spreading_butter_on_bread
+desc: A person is seated at a table, spreading butter on bread with a knife.
+env: a dining room

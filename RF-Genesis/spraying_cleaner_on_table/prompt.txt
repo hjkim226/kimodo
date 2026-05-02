@@ -1,0 +1,3 @@
+name: spraying_cleaner_on_table
+desc: A person is standing at a table, spraying a cleaner onto the table.
+env: a kitchen

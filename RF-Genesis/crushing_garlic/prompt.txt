@@ -1,0 +1,3 @@
+name: crushing_garlic
+desc: A person is standing at a counter, crushing garlic with the flat of a blade.
+env: a kitchen

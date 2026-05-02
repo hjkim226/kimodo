@@ -1,0 +1,3 @@
+name: washing_hands_at_sink
+desc: A person is standing at a sink, rubbing their hands together to wash them.
+env: a kitchen

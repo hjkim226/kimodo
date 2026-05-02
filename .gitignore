@@ -1,3 +1,9 @@
+# ignore all npz files
+*.npz
+
+# but keep npz files inside A/
+!RF-Genesis/*/*.npz
+
 # debugging files
 debug/
 SMPLX_NEUTRAL.npz

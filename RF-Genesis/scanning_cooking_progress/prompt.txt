@@ -1,0 +1,3 @@
+name: scanning_cooking_progress
+desc: A person is standing at a stove, scanning the cooking progress.
+env: a kitchen

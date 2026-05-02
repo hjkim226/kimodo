@@ -1,0 +1,3 @@
+name: opening_jar_cap
+desc: A person is standing at a counter, rotating a cap to open a jar.
+env: a kitchen

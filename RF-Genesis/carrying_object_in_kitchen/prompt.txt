@@ -1,0 +1,3 @@
+name: carrying_object_in_kitchen
+desc: A person is walking in a kitchen, carrying an object.
+env: a kitchen

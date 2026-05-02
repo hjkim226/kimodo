@@ -1,0 +1,3 @@
+name: leaning_forward_on_table
+desc: A person is seated at a table, leaning their torso forward to rest forearms on the surface.
+env: a dining room

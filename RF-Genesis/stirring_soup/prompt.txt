@@ -1,0 +1,3 @@
+name: stirring_soup
+desc: A person is standing at a stove, stirring soup in a pot with a spoon.
+env: a kitchen

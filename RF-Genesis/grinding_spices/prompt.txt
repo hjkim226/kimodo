@@ -1,0 +1,3 @@
+name: grinding_spices
+desc: A person is standing at a table, grinding spices with a mortar and pestle.
+env: a kitchen

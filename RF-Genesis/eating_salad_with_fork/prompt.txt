@@ -1,0 +1,3 @@
+name: eating_salad_with_fork
+desc: A person is seated at a table, eating a salad with a fork.
+env: a dining room

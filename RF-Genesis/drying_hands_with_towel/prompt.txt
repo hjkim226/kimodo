@@ -1,0 +1,3 @@
+name: drying_hands_with_towel
+desc: A person is standing at a counter, drying their hands with a towel.
+env: a kitchen

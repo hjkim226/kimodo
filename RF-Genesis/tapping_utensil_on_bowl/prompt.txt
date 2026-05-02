@@ -1,0 +1,3 @@
+name: tapping_utensil_on_bowl
+desc: A person is standing at a counter, tapping a utensil against a bowl.
+env: a kitchen

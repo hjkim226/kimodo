@@ -1,0 +1,3 @@
+name: pulling_tray_from_oven
+desc: A person is stooping at an oven, pulling a tray outward.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: dipping_food_in_sauce
+desc: A person is seated at a table, dipping food into a sauce.
+env: a dining room

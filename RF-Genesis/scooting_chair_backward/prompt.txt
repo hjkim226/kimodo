@@ -1,0 +1,3 @@
+name: scooting_chair_backward
+desc: A person is seated at a table, adjusting the chair position with a backward scoot.
+env: a dining room

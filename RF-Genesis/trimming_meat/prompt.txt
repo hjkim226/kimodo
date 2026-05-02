@@ -1,0 +1,3 @@
+name: trimming_meat
+desc: A person is standing at a counter, trimming fat from meat with a knife.
+env: a kitchen

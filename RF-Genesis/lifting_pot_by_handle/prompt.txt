@@ -1,0 +1,3 @@
+name: lifting_pot_by_handle
+desc: A person is standing at a stove, lifting a pot vertically by the handle.
+env: a kitchen

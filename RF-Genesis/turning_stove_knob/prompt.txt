@@ -1,0 +1,3 @@
+name: turning_stove_knob
+desc: A person is standing at a stove, turning a knob with a wrist rotation.
+env: a kitchen

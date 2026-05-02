@@ -1,0 +1,3 @@
+name: placing_item_after_torso_pivot
+desc: A person is standing at a counter, placing an item down after a torso pivot.
+env: a kitchen

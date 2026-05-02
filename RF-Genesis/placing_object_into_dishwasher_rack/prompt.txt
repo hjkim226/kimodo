@@ -1,0 +1,3 @@
+name: placing_object_into_dishwasher_rack
+desc: A person is stooping at a dishwasher, placing an object into the rack.
+env: a kitchen

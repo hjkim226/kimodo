@@ -1,0 +1,3 @@
+name: snapping_green_beans
+desc: A person is standing at a counter, snapping green beans with both hands.
+env: a kitchen

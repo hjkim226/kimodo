@@ -1,0 +1,3 @@
+name: zesting_fruit
+desc: A person is standing at a counter, zesting a fruit with a zester.
+env: a kitchen

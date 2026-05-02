@@ -1,0 +1,3 @@
+name: shaking_hands_to_remove_moisture
+desc: A person is standing at a sink, shaking their hands to remove moisture.
+env: a kitchen

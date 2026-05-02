@@ -1,0 +1,3 @@
+name: flattening_dough_with_palm
+desc: A person is standing at a table, flattening dough with their palm.
+env: a kitchen

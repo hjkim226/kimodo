@@ -1,0 +1,3 @@
+name: stepping_laterally_in_kitchen
+desc: A person is standing at a counter, stepping laterally to the left.
+env: a kitchen

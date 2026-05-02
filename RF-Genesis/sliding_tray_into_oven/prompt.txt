@@ -1,0 +1,3 @@
+name: sliding_tray_into_oven
+desc: A person is standing at an oven, sliding a tray inside.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: reaching_into_bottom_drawer
+desc: A person is stooping at a cabinet, reaching into a bottom drawer.
+env: a kitchen

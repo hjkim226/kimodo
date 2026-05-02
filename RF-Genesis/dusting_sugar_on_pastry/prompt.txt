@@ -1,0 +1,3 @@
+name: dusting_sugar_on_pastry
+desc: A person is standing at a counter, dusting sugar over a pastry.
+env: a kitchen

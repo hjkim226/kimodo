@@ -1,0 +1,3 @@
+name: whisking_eggs_in_bowl
+desc: A person is standing at a counter, whisking eggs in a bowl.
+env: a kitchen

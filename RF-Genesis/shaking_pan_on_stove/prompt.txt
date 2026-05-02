@@ -1,0 +1,3 @@
+name: shaking_pan_on_stove
+desc: A person is standing at a stove, shaking a pan with forward-backward bursts.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: drinking_water_from_glass
+desc: A person is seated at a table, drinking water from a glass.
+env: a dining room

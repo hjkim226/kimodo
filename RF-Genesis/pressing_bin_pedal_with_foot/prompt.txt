@@ -1,0 +1,3 @@
+name: pressing_bin_pedal_with_foot
+desc: A person is standing at a bin, pressing the pedal with a foot.
+env: a kitchen

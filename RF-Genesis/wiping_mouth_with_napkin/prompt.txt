@@ -1,0 +1,3 @@
+name: wiping_mouth_with_napkin
+desc: A person is seated at a table, wiping their mouth with a napkin.
+env: a dining room

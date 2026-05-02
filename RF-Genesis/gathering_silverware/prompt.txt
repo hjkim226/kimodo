@@ -1,0 +1,3 @@
+name: gathering_silverware
+desc: A person is standing at a table, gathering silverware from the table.
+env: a kitchen

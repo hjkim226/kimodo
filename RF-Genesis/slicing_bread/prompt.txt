@@ -1,0 +1,3 @@
+name: slicing_bread
+desc: A person is standing at a table, slicing a loaf of bread with a knife.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: eating_soup_with_spoon
+desc: A person is seated at a table, eating soup with a spoon.
+env: a dining room

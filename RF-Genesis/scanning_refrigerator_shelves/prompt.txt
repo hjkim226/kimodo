@@ -1,0 +1,3 @@
+name: scanning_refrigerator_shelves
+desc: A person is standing at a refrigerator, scanning shelves with a forward lean.
+env: a kitchen

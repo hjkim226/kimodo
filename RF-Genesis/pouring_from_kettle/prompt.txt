@@ -1,0 +1,3 @@
+name: pouring_from_kettle
+desc: A person is standing at a counter, pouring liquid from a kettle with both hands.
+env: a kitchen

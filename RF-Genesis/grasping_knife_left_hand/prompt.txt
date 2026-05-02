@@ -1,0 +1,3 @@
+name: grasping_knife_left_hand
+desc: A person is standing at a table, grasping a knife with their left hand.
+env: a kitchen

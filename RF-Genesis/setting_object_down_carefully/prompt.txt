@@ -1,0 +1,3 @@
+name: setting_object_down_carefully
+desc: A person is standing at a counter, setting an object down carefully.
+env: a kitchen

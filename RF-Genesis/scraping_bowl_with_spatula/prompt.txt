@@ -1,0 +1,3 @@
+name: scraping_bowl_with_spatula
+desc: A person is standing at a counter, scraping a bowl with a spatula.
+env: a kitchen

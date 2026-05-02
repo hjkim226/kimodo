@@ -1,0 +1,3 @@
+name: reaching_for_spice_jar_overhead
+desc: A person is standing at a shelf, reaching overhead to grasp a spice jar.
+env: a kitchen

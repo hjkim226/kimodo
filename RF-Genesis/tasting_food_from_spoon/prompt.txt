@@ -1,0 +1,3 @@
+name: tasting_food_from_spoon
+desc: A person is standing at a counter, tasting food from a spoon.
+env: a kitchen

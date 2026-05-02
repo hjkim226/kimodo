@@ -1,0 +1,3 @@
+name: pulling_dishwasher_door_down
+desc: A person is stooping at a dishwasher, pulling the door downward.
+env: a kitchen

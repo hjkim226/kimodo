@@ -1,0 +1,3 @@
+name: breaking_bread_with_hands
+desc: A person is seated at a table, breaking bread with both hands.
+env: a dining room

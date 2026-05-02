@@ -1,0 +1,3 @@
+name: shaking_container
+desc: A person is standing at a counter, shaking a container with wrist pulses.
+env: a kitchen

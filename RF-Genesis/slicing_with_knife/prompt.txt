@@ -1,0 +1,3 @@
+name: slicing_with_knife
+desc: A person is standing at a counter, slicing an object with a knife.
+env: a kitchen

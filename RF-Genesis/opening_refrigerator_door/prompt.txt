@@ -1,0 +1,3 @@
+name: opening_refrigerator_door
+desc: A person is standing at a refrigerator, pulling the door open.
+env: a kitchen

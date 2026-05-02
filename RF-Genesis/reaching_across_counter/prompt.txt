@@ -1,0 +1,3 @@
+name: reaching_across_counter
+desc: A person is standing at a counter, reaching across the surface while shifting weight.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: pulling_towel_down
+desc: A person is standing at a counter, pulling a towel downward.
+env: a kitchen

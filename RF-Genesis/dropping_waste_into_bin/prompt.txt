@@ -1,0 +1,3 @@
+name: dropping_waste_into_bin
+desc: A person is standing at a bin, dropping waste into it.
+env: a kitchen

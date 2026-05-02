@@ -1,0 +1,3 @@
+name: sitting_down_on_chair
+desc: A person is sitting down by flexing their knees and hips to lower onto a chair.
+env: a dining room

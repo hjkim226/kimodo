@@ -1,0 +1,3 @@
+name: greasing_pan
+desc: A person is standing at a counter, greasing a pan with a brush.
+env: a kitchen

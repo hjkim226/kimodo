@@ -1,0 +1,3 @@
+name: relaxing_shoulders_after_task
+desc: A person is standing in a kitchen, relaxing their shoulders after a task.
+env: a kitchen

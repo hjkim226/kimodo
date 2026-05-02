@@ -1,0 +1,3 @@
+name: twirling_pasta_on_fork
+desc: A person is seated at a table, twirling pasta onto a fork.
+env: a dining room

@@ -1,0 +1,3 @@
+name: rolling_dough_with_pin
+desc: A person is standing at a table, rolling dough with a rolling pin.
+env: a kitchen

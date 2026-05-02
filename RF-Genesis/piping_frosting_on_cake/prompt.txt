@@ -1,0 +1,3 @@
+name: piping_frosting_on_cake
+desc: A person is standing at a table, piping frosting onto a cake.
+env: a kitchen

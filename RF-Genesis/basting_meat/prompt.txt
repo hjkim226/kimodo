@@ -1,0 +1,3 @@
+name: basting_meat
+desc: A person is standing at a stove, basting meat with a brush.
+env: a kitchen

@@ -1,0 +1,3 @@
+name: stirring_in_circular_motion
+desc: A person is standing at a stove, stirring contents in a circular motion.
+env: a kitchen

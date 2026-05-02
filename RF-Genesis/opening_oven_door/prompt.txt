@@ -1,0 +1,3 @@
+name: opening_oven_door
+desc: A person is stooping at an oven, opening the door with both hands.
+env: a kitchen

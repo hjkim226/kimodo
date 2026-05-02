@@ -1,0 +1,3 @@
+name: drying_plate_with_towel
+desc: A person is standing at a counter, drying a plate with a towel.
+env: a kitchen
