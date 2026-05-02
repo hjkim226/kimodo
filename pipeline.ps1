@@ -1,5 +1,5 @@
 #!/usr/bin/env pwsh
-# run_pipeline.ps1 — Kimodo → RF-Genesis batch pipeline
+# pipeline.ps1 — Kimodo → RF-Genesis batch pipeline
 #
 # Environment variables (set before running, or edit defaults below):
 #   RFGENESIS_DIR     : RF-Genesis repo root          (default: C:\RF-Genesis)
@@ -10,9 +10,9 @@
 #   CONDA_ENV_RFGEN   : conda env name for rfgen       (default: rfgen)
 #
 # Usage:
-#   $env:RFGENESIS_DIR = "D:\RF-Genesis"
-#   .\run_pipeline.ps1
-#   .\run_pipeline.ps1 -ScenarioFile "C:\other\scenario.json"
+#   $env:RFGENESIS_DIR = "C:\CUDA\RF\RF-Genesis"
+#   .\pipeline.ps1
+#   .\pipeline.ps1 -ScenarioFile "C:\other\scenario.json"
 
 param(
     [string]$ScenarioFile = "$PSScriptRoot\scenario.json"
@@ -22,7 +22,7 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = "Continue"
 
 # ── Defaults ──────────────────────────────────────────────────────────────────
-if (-not $env:RFGENESIS_DIR)    { $env:RFGENESIS_DIR    = "C:\RF-Genesis" }
+if (-not $env:RFGENESIS_DIR)    { $env:RFGENESIS_DIR    = "C:\CUDA\RF\RF-Genesis" }
 if (-not $env:KIMODO_DIR)       { $env:KIMODO_DIR       = $PSScriptRoot }
 if (-not $env:RFGEN_ENV_PROMPT) { $env:RFGEN_ENV_PROMPT = "a living room" }
 if (-not $env:KIMODO_MODEL)     { $env:KIMODO_MODEL     = "Kimodo-SMPLX-RP-v1" }
@@ -59,11 +59,6 @@ if (-not (Test-Path $adapterScript)) {
     exit 1
 }
 
-# ── Start text encoder in background ─────────────────────────────────────────
-Write-Host "Starting Kimodo text encoder in background..."
-$encoderProc = Start-Process -FilePath "kimodo_textencoder" -PassThru -NoNewWindow
-Start-Sleep -Seconds 2   # brief wait for encoder to initialize
-
 # ── Phase 1: Motion generation + conversion (all scenarios first) ─────────────
 Write-Host "`n=== Phase 1: Motion Generation & Conversion ($($scenarios.Count) scenarios) ==="
 
@@ -74,8 +69,16 @@ $phase1Done   = 0
 foreach ($s in $scenarios) {
     $name       = $s.name
     $desc       = $s.desc
-    $duration   = if ($s.duration) { $s.duration } else { $env:KIMODO_DURATION }
-    $env_prompt = if ($s.env)      { $s.env }      else { $env:RFGEN_ENV_PROMPT }
+    $duration = if ($null -ne $s.PSObject.Properties['duration']) {
+        $s.duration
+    } else {
+        $env:KIMODO_DURATION
+    }
+    $env_prompt = if ($null -ne $s.PSObject.Properties['env']) {
+        $s.env
+    } else {
+        $env:RFGEN_ENV_PROMPT
+    }
     $amassOut   = Join-Path $PSScriptRoot "${name}_amass.npz"
     $rfgenOut   = Join-Path $outputBase "$name\obj_diff.npz"
     $phase1Done++
@@ -90,16 +93,16 @@ foreach ($s in $scenarios) {
         continue
     }
 
-    # Rename kimodo_out_amass.npz → {name}_amass.npz to preserve before next run overwrites it
-    $defaultAmass = Join-Path $PSScriptRoot "kimodo_out_amass.npz"
-    if (Test-Path $defaultAmass) {
-        Move-Item $defaultAmass $amassOut -Force
-        Write-Host "  Preserved: $amassOut"
-    } else {
-        Write-Warning "  kimodo_out_amass.npz not found — skipping $name"
-        [void]$phase1Failed.Add($name)
-        continue
-    }
+    # # Rename kimodo_out_amass.npz → {name}_amass.npz to preserve before next run overwrites it
+    # $defaultAmass = Join-Path $PSScriptRoot "kimodo_out_amass.npz"
+    # if (Test-Path $defaultAmass) {
+    #     Move-Item $defaultAmass $amassOut -Force
+    #     Write-Host "  Preserved: $amassOut"
+    # } else {
+    #     Write-Warning "  kimodo_out_amass.npz not found — skipping $name"
+    #     [void]$phase1Failed.Add($name)
+    #     continue
+    # }
 
     Write-Host "  (2) Converting to RF-Genesis format..."
     $outDir = Split-Path $rfgenOut
@@ -123,43 +126,37 @@ $phase2Failed = [System.Collections.Generic.HashSet[string]]::new()
 $phase2Total  = $scenarios.Count
 $phase2Done   = 0
 
-Push-Location $env:RFGENESIS_DIR
-try {
-    foreach ($s in $scenarios) {
-        $name       = $s.name
-        $desc       = $s.desc
-        $env_prompt = if ($s.env) { $s.env } else { $env:RFGEN_ENV_PROMPT }
-        $phase2Done++
+# Push-Location $env:RFGENESIS_DIR
+# try {
+#     foreach ($s in $scenarios) {
+#         $name       = $s.name
+#         $desc       = $s.desc
+#         $env_prompt = if ($s.env) { $s.env } else { $env:RFGEN_ENV_PROMPT }
+#         $phase2Done++
 
-        if ($phase1Failed.Contains($name)) {
-            Write-Host "`n[$phase2Done/$phase2Total] $name — SKIPPED (Phase 1 failed)"
-            continue
-        }
+#         if ($phase1Failed.Contains($name)) {
+#             Write-Host "`n[$phase2Done/$phase2Total] $name — SKIPPED (Phase 1 failed)"
+#             continue
+#         }
 
-        Write-Host "`n[$phase2Done/$phase2Total] $name"
-        Write-Host "  (3) Running RF-Genesis..."
+#         Write-Host "`n[$phase2Done/$phase2Total] $name"
+#         Write-Host "  (3) Running RF-Genesis..."
 
-        & conda run -n $env:CONDA_ENV_RFGEN python run.py `
-            -o $desc `
-            -e $env_prompt `
-            -n $name
+#         & conda run -n $env:CONDA_ENV_RFGEN python run.py `
+#             -o $desc `
+#             -e $env_prompt `
+#             -n $name
 
-        if ($LASTEXITCODE -ne 0) {
-            Write-Warning "  RF-Genesis FAILED (exit $LASTEXITCODE)"
-            [void]$phase2Failed.Add($name)
-        } else {
-            Write-Host "  Done: $name"
-        }
-    }
-} finally {
-    Pop-Location
-}
-
-# ── Stop text encoder ─────────────────────────────────────────────────────────
-if ($null -ne $encoderProc -and -not $encoderProc.HasExited) {
-    Write-Host "`nStopping Kimodo text encoder (PID $($encoderProc.Id))..."
-    $encoderProc.Kill()
-}
+#         if ($LASTEXITCODE -ne 0) {
+#             Write-Warning "  RF-Genesis FAILED (exit $LASTEXITCODE)"
+#             [void]$phase2Failed.Add($name)
+#         } else {
+#             Write-Host "  Done: $name"
+#         }
+#     }
+# } finally {
+#     Pop-Location
+# }
 
 # ── Summary ───────────────────────────────────────────────────────────────────
 Write-Host "`n=== Pipeline Summary ==="
