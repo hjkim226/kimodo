@@ -1,3 +1,0 @@
-name: piercing_food_with_fork
-desc: A person is seated at a table, piercing food with a downward fork motion.
-env: a dining room
